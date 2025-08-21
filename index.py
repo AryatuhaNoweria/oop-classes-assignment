@@ -1,6 +1,6 @@
 # # using dynamic concept of classes, identify alteast 7 classes with atleast with atleast 7  attributes  and  atleast 7 objects
-class Student:
-Example: Dynamic Concept of Classes in Python
+#class Student:
+#Example: Dynamic Concept of Classes in Python
 # 1. Class: Student
 class Student:
     def __init__(self, name, age, gender, student_id, course, year, gpa):
