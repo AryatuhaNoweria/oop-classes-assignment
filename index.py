@@ -1,7 +1,5 @@
-# # using dynamic concept of classes, identify alteast 7 classes with atleast with atleast 7  attributes  and  atleast 7 objects
-#class Student:
-#Example: Dynamic Concept of Classes in Python
-# 1. Class: Student
+# using dynamic concept of classes, identify alteast 7 classes with atleast with atleast 7  attributes  and  atleast 7 objects
+
 class Student:
     def __init__(self, name, age, gender, student_id, course, year, gpa):
         self.name = name
@@ -12,7 +10,7 @@ class Student:
         self.year = year
         self.gpa = gpa
 
-# 2. Class: Teacher
+
 class Teacher:
     def __init__(self, name, subject, employee_id, age, gender, department, salary):
         self.name = name
@@ -23,7 +21,7 @@ class Teacher:
         self.department = department
         self.salary = salary
 
-# 3. Class: Course
+
 class Course:
     def __init__(self, code, title, credits, department, lecturer, duration, level):
         self.code = code
@@ -34,7 +32,7 @@ class Course:
         self.duration = duration
         self.level = level
 
-# 4. Class: Book
+
 class Book:
     def __init__(self, title, author, isbn, publisher, year, pages, category):
         self.title = title
@@ -45,7 +43,7 @@ class Book:
         self.pages = pages
         self.category = category
 
-# 5. Class: Hospital
+
 class Hospital:
     def __init__(self, name, location, capacity, director, departments, established_year, rating):
         self.name = name
@@ -56,7 +54,7 @@ class Hospital:
         self.established_year = established_year
         self.rating = rating
 
-# 6. Class: Patient
+
 class Patient:
     def __init__(self, name, age, gender, patient_id, diagnosis, doctor, admission_date):
         self.name = name
@@ -67,7 +65,7 @@ class Patient:
         self.doctor = doctor
         self.admission_date = admission_date
 
-# 7. Class: Vehicle
+
 class Vehicle:
     def __init__(self, brand, model, year, color, engine, fuel_type, price):
         self.brand = brand
